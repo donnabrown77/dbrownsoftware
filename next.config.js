@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
 
 const { withContentlayer } = require("next-contentlayer");
 
 module.exports = withContentlayer({
+  basePath: isProd ? "/nextjs-blog-deployment" : "",
   output: "export",
   distDir: "dist",
   images: {
