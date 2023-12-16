@@ -91,7 +91,7 @@ export default async function Projects() {
             </p>
           </div>
           <div className='container py-4 mx-auto'>
-            <div className='flex flex-wrap md:flex-wrap:nowrap'>
+            <div className='flex-auto flex-wrap md:flex-wrap:nowrap md:flex'>
               {data.map(
                 ({
                   id,

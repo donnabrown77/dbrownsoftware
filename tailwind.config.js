@@ -16,6 +16,24 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        white: "#ffffff",
+        dbrownsoftware: {
+          50: "#f5f3f0",
+          100: "#ebe6e1",
+          200: "#cfc2b8",
+          300: "#b39f92",
+          400: "#785d53",
+          500: "#3e2723",
+          600: "#38201c",
+          700: "#2e1713",
+          800: "#240f0c",
+          900: "#1c0907",
+          950: "#120403",
+        },
+      },
       typography: {
         DEFAULT: {
           css: {

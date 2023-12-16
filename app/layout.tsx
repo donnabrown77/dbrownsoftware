@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className='bg-dbrownsoftware-50 dark:bg-dbrownsoftware-950'>
         {/*  Providers needs the use client directive so it must placed in another file */}
         <Providers attribute='class' defaultTheme='system' enableSystem>
           <Header />
