@@ -28,7 +28,7 @@ export default async function Projects() {
       <div className='mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0'>
         <div className='mx-auto divide-y'>
           <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
-            <h1 className='text-left text-3xl font-bold leading-9 tracking-tight sm:leading-10 md:text-3xl md:leading-14'>
+            <h1 className='text-left text-3xl  leading-9 tracking-tight sm:leading-10 md:text-3xl md:leading-14'>
               Projects
             </h1>
             <p className='text-lg text-left leading-7'>
@@ -83,7 +83,7 @@ export default async function Projects() {
       <div className='mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0'>
         <div className='mx-auto divide-y'>
           <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
-            <h1 className='text-left text-3xl font-bold leading-9 tracking-tight sm:leading-10 md:text-3xl md:leading-14'>
+            <h1 className='text-left text-3xl leading-9 tracking-tight sm:leading-10 md:text-3xl md:leading-14'>
               Projects
             </h1>
             <p className='text-lg text-left leading-7'>
