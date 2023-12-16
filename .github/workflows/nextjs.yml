@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.TOKENS }}
+      GITHUB_TOKEN: ${{ secrets.TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
