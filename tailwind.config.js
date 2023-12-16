@@ -16,6 +16,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Roboto", "ui-sans-serif", "system-ui"],
+        roboto: ["Roboto", "sans-serif"],
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
