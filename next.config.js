@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 const { withContentlayer } = require("next-contentlayer");
 
 module.exports = withContentlayer({
-  basePath: isProd ? "" : "",
+  basePath: isProd ? "/dbrownsoftware" : "",
   output: "export",
   distDir: "dist",
   images: {
